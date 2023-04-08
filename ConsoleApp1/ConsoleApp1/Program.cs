@@ -12,7 +12,8 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Tartaly nagytartaly, literes;
-            
+            nagytartaly = new Tartaly("nagytartaly", 500, 200, 120);
+            literes = new Tartaly("literes", 10, 10, 10);
             Console.WriteLine(nagytartaly.Info());
             nagytartaly.Tolt(12500);
             nagytartaly.Tolt(5680);
